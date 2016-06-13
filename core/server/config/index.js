@@ -127,7 +127,7 @@ ConfigManager.prototype.set = function (config) {
         this._config.theme.navigation = config.theme.navigation;
     }
 
-    // Protect against accessing a non-existant object.
+    // Protect against accessing a non-existent object.
     // This ensures there's always at least a paths object
     // because it's referenced in multiple places.
     this._config.paths = this._config.paths || {};
@@ -155,7 +155,7 @@ ConfigManager.prototype.set = function (config) {
         knexInstance = knex(this._config.database);
     }
 
-    // Protect against accessing a non-existant object.
+    // Protect against accessing a non-existent object.
     // This ensures there's always at least a storage object
     // because it's referenced in multiple places.
     this._config.storage = this._config.storage || {};
