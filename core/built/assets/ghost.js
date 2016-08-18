@@ -5739,7 +5739,7 @@ define('ghost/mixins/pagination-controller', ['exports', 'ember', 'ghost/utils/a
 
         /**
          * Takes an ajax response, concatenates any error messages, then generates an error notification.
-         * @param {jqXHR} response The jQuery ajax reponse object.
+         * @param {jqXHR} response The jQuery ajax response object.
          * @return
          */
         reportLoadError: function reportLoadError(response) {
